@@ -8,9 +8,7 @@ while row < src.length do
   column = 0
   while column < src[row].length do
     if (src[row][column] % 2) != 0
-       results << src[row][column]
+       src[row][column] << results
      end
    end
-end
-end
 end
